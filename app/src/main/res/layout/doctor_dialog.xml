@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/doctor_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doctor"/>
+
+    <TextView
+        android:id="@+id/doctor_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fullname"/>
+
+    <TextView
+        android:id="@+id/doctor_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"/>
+
+    <TextView
+        android:id="@+id/doctor_specialist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specialist"/>
+
+    <TextView
+        android:id="@+id/doctor_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+    <TextView
+        android:id="@+id/doctor_phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"/>
+
+    <TextView
+        android:id="@+id/doctor_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fee"/>
+
+    <TextView
+        android:id="@+id/doctor_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"/>
+
+    <TextView
+        android:id="@+id/tv_text_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give Doctor Rating!"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <RatingBar
+        android:id="@+id/doctor_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        style="@style/Button"
+        android:id="@+id/return_from_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

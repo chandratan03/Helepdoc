@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "99956427864",
+    "firebase_url": "https://helepdoc.firebaseio.com",
+    "project_id": "helepdoc",
+    "storage_bucket": "helepdoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99956427864:android:8111f9332a7a20663c0e2d",
+        "android_client_info": {
+          "package_name": "edu.bluejack19_2.HelepDoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99956427864-107se00ev5dv8j80jo90fkh3h1ts2p3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.bluejack19_2.HelepDoc",
+            "certificate_hash": "8a9536a96cdc010fb70d6d0724c49d0913f4cc4f"
+          }
+        },
+        {
+          "client_id": "99956427864-h1nud7gmcg7l77oqfjq8618dpbddrrq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.bluejack19_2.HelepDoc",
+            "certificate_hash": "23edf293e96225198b090f7c3898bb812db398b5"
+          }
+        },
+        {
+          "client_id": "99956427864-16pjienfu7bt6g0s2gmf5qpttarku2og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99956427864-16pjienfu7bt6g0s2gmf5qpttarku2og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/doctor_picture"
+        android:src="@drawable/doctor"/>
+
+    <TextView
+        android:id="@+id/doctor_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fullname"/>
+
+    <TextView
+        android:id="@+id/doctor_specialist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specialist"/>
+
+    <TextView
+        android:id="@+id/doctor_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fee"/>
+
+    <TextView
+        android:id="@+id/doctor_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"/>
+
+</LinearLayout>

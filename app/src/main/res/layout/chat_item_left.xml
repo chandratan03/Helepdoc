@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#d4ddff">
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Andrew Reyner"
+        android:textSize="11sp"
+
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:textColor="#363636"
+        />
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/chat_item_bg"
+        android:orientation="vertical"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        >
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/open_sans"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="8dp"
+            android:text="Hihihihi"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

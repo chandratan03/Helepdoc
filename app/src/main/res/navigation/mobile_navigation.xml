@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_doctor"
+        android:label="Doctor List"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.DoctorViewFragment"
+        tools:layout="@layout/fragment_doctor_view"/>
+
+    <fragment
+        android:id="@+id/nav_main_chat"
+        android:label="Main Chat"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.MainChatFragment"
+        tools:layout="@layout/fragment_main_chat"
+        />
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:label="Store"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.ProductFragment"
+        tools:layout="@layout/fragment_product" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:label="Chat"
+        android:name="edu.bluejack19_2.HelepDoc.chatFragments.ChatFragment"
+        tools:layout="@layout/fragment_chat"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:label="Profile"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/nav_transaction"
+        android:label="Transaction History"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.ViewTransactionFragment"
+        tools:layout="@layout/fragment_view_transaction"/>
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="Logout"
+        android:name="edu.bluejack19_2.HelepDoc.mainFragments.LogoutFragment"
+        tools:layout="@layout/fragment_logout"
+        />
+</navigation>
